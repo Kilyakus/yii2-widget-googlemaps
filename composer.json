@@ -1,0 +1,22 @@
+{
+	"name": "kilyakus/yii2-widget-googlemaps",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"authors": [
+		{
+			"name": "Kilyakus",
+			"email": "aleksandr.kilyakov@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"kilyakus\\widget\\googlemaps\\": "src"
+		}
+	}
+}
